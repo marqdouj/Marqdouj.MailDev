@@ -1,0 +1,15 @@
+﻿@Marqdouj.MailDev.ApiService_HostAddress = https://localhost:7510
+
+@email=maildev@test.com
+
+POST {{Marqdouj.MailDev.ApiService_HostAddress}}/newsletter/subscribe?email={{email}}
+
+###
+
+POST {{Marqdouj.MailDev.ApiService_HostAddress}}/newsletter/unsubscribe?email={{email}}
+
+###
+
+GET {{Marqdouj.MailDev.ApiService_HostAddress}}/weatherforecast
+
+###
