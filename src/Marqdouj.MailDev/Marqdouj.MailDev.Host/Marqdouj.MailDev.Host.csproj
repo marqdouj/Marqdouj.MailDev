@@ -4,7 +4,25 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>8.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>.NET Aspire MailDev Host</Title>
+    <PackageProjectUrl>https://github.com/marqdouj/Marqdouj.MailDev</PackageProjectUrl>
+    <PackageTags>Aspire MailDev</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Authors>Douglas Marquardt</Authors>
+    <Copyright>© Douglas Marquardt. All rights reserved.</Copyright>
+    <Description>MailDev wrapper for use in .NET Aspire</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting" Version="9.0.0" />
