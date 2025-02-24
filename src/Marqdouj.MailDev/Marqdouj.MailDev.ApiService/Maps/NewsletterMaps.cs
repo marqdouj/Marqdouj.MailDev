@@ -7,11 +7,21 @@ namespace Marqdouj.MailDev.ApiService.Maps
 {
     internal static class NewsletterMaps
     {
+        private const string emailDefault = "maildev@test.com";
+
+        /// <summary>
+        /// If email is empty, return the default email.(i.e. OpenAPI UI Testing)
+        /// </summary>
+        /// <param name="email"></param>
+        /// <returns></returns>
+        private static string GetEmail(string email) => string.IsNullOrWhiteSpace(email) ? emailDefault : email;
+
         public static void MapNewsletter(this WebApplication app)
         {
             app.MapPost("/newsletter/subscribe",
                 async (MailKitClientFactory factory, string email) =>
                 {
+                    email = GetEmail(email);
                     ISmtpClient client = await factory.GetSmtpClientAsync();
 
                     using var message = new MailMessage("newsletter@yourcompany.com", email)
@@ -26,6 +36,7 @@ namespace Marqdouj.MailDev.ApiService.Maps
             app.MapPost("/newsletter/unsubscribe",
                 async (MailKitClientFactory factory, string email) =>
                 {
+                    email = GetEmail(email);
                     ISmtpClient client = await factory.GetSmtpClientAsync();
 
                     using var message = new MailMessage("newsletter@yourcompany.com", email)
