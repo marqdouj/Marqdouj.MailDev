@@ -1,5 +1,5 @@
 using MailKit.Net.Smtp;
-using Marqdouj.MailDev.Client;
+using Marqdouj.Aspire.MailKit.Client;
 using MimeKit;
 using System.Net.Mail;
 

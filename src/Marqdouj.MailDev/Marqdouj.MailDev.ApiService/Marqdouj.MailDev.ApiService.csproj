@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Marqdouj.MailDev.Client\Marqdouj.MailDev.Client.csproj" />
     <ProjectReference Include="..\Marqdouj.MailDev.ServiceDefaults\Marqdouj.MailDev.ServiceDefaults.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+    <PackageReference Include="Marqdouj.Aspire.MailKit.Client" Version="8.0.0" />
   </ItemGroup>
 
 </Project>
