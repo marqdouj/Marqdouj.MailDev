@@ -15,9 +15,14 @@
     <Copyright>© Douglas Marquardt. All rights reserved.</Copyright>
     <Description>MailDev wrapper for use in .NET Aspire</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>DMNuGet.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\..\DMNuGet.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
