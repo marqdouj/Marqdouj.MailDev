@@ -15,6 +15,9 @@ It is available as a NuGet package and is the recommended way to send email in A
 https://www.nuget.org/packages/Marqdouj.Aspire.MailKit.Client/
 
 ## Release Notes
+### 8.1.1
+- Add NuGet icon
+
 ### 8.1.0
 - Update NuGet packages
 
