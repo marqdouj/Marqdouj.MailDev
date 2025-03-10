@@ -1,6 +1,6 @@
 # MailDev .NET Aspire Hosting Wrapper
-
-https://github.com/maildev/maildev
+- https://github.com/maildev/maildev
+- A demo of this and all of my NuGet packages can be found [here](https://github.com/marqdouj/BlazorDemo/).
 
 Based on this article:
 
