@@ -1,6 +1,8 @@
 # MailDev .NET Aspire Hosting Wrapper
-- https://github.com/maildev/maildev
 - A demo of this and all of my NuGet packages can be found [here](https://github.com/marqdouj/BlazorDemo/).
+
+- ## NuGet Package
+- https://www.nuget.org/packages/Marqdouj.MailDev.Host/
 
 Based on this article:
 
