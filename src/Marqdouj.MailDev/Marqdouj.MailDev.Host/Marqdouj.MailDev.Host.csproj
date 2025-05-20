@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>8.1.1</Version>
+    <Version>8.1.2</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>.NET Aspire MailDev Host</Title>
     <PackageProjectUrl>https://github.com/marqdouj/Marqdouj.MailDev</PackageProjectUrl>
@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting" Version="9.1.0" />
+    <PackageReference Include="Aspire.Hosting" Version="9.3.0" />
   </ItemGroup>
 
 </Project>
