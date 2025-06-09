@@ -1,5 +1,6 @@
 # MailDev .NET Aspire Hosting Wrapper
-- A demo of this and all of my NuGet packages can be found [here](https://github.com/marqdouj/Blazor-Demos/).
+- A demo of this and all of my NuGet packages can be found 
+[here](https://github.com/marqdouj/BlazorSandbox/).
 
 - ## NuGet Package
 - https://www.nuget.org/packages/Marqdouj.MailDev.Host/
@@ -17,6 +18,9 @@ It is available as a NuGet package and is the recommended way to send email in A
 https://www.nuget.org/packages/Marqdouj.Aspire.MailKit.Client/
 
 ## Release Notes
+### 8.1.3
+- Update ReadMe
+
 ### 8.1.2
 - Update NuGet packages
 
